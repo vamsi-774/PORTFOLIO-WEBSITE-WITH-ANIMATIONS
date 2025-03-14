@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Monoton:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Portfolio_container {
+    background-color: rgb(2 8 23);
+    color: white;
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navigation ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+}
+
+.navigation li {
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #2c3e50, #fd746c);
+    -webkit-background-clip: text;
+    color: #fff;
+    transition: color 0.3s, background 0.3s;
+}
+
+.navigation a:hover {
+    background: linear-gradient(to right,#ffd0a4, #ff47b2); 
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.intro_text {
+    font-family: Poppins;
+    animation: slideUp 1s ease-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.name{
+    font-family: Poppins;
+    animation: slideUp 1s ease-out forwards;
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #ffd0a4, #ff47b2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.intro{
+    
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background 2s;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+        color: #000;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        color: #fff;
+    }
+}
+
+.description{
+    font-family: Poppins;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 38px;
+}
+
+.about-section{
+    border-width: 0.5px;
+    border-style: solid;
+    border-color:#fff;
+    border-radius: 50px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-me{
+    color: #fff;
+    font-family: poppins;
+    font-weight: bolder;
+}
+
+.about-me-description{
+    color: #fff;
+    font-size: 25px;
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.projects{
+    border-width: 0.5px;
+    border-style: solid;
+    border-color:#fff;
+    border-radius: 50px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.list_of_projects{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-body{
+    background-color: #000;
+    border-width: 0px;
+}
+
+.card{
+    border-style: none;
+    border-width: 0px;
+}
+
+.quote-line{
+    text-align: center;
+    font-family: poppins;
+    font-weight: bolder;
+    background: linear-gradient(to right,#2C3E50,#4dddf3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills_head{
+    font-family: poppins;
+    font-weight: bolder;
+    background: linear-gradient(to right,#2C3E50,#4dddf3);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+}
